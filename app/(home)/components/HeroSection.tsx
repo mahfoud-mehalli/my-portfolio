@@ -1,6 +1,7 @@
 import { MovingBorderBtn } from '@/components/ui/moving-border'
 import Link from 'next/link'
 import React from 'react'
+import Title from './Title'
 
 const HeroSection = () => {
   return (
@@ -13,11 +14,7 @@ const HeroSection = () => {
                 {"A full stack developer based in algeria, with +3 years of experience in the industry i bring your idea into reality"}
             </p>
             <Link href={"mailto:mahfoudmehalli12345@gmail.com"} className='inline-block group'>
-                <div className='space-y-1'>
-                    <h1 className='text-3xl font-bold group-hover:text-green-400'>Contact Me 📧</h1>
-                    <div className="w-40 h-1 bg-green-500"></div>
-                    <div className="w-40 h-1 bg-indigo-500 translate-x-2"></div>
-                </div>
+                <Title text='Contact Me 📧'/>
             </Link>
         </div>
         <div className='relative'>
