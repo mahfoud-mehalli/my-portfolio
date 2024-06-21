@@ -9,4 +9,4 @@ I’m excited to continue building with these technologies and to apply what I�
 
 ### Screenshot of the hero section:
 
-![Uploading image.png…]()
+![Hero Section](./public/og.png)
