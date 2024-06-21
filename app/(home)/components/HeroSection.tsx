@@ -5,10 +5,10 @@ import Title from './Title'
 
 const HeroSection = () => {
   return (
-    <div className="min-h-[60vh] flex flex-col-reverse gap-14 lg:gap-0 lg:flex-row justify-between items-center">
+    <div className="min-h-[60vh] flex flex-col-reverse gap-14 lg:gap-0 lg:flex-row justify-between items-center animate-move-up">
         <div className='space-y-10 text-center lg:text-start'>
             <h1 className='text-4xl lg:text-7xl font-bold capitalize'>
-                Hi, and welcome 🖐<br /><span className='underline underline-offset-8 decoration-green-500'>I'm Mahfoud.</span>
+                Hi, and welcome 🖐<br /><span className='underline underline-offset-8 decoration-green-500'>I&apos;m Mahfoud.</span>
             </h1>
             <p className='capitalize md:w-96 text-lg text-gray-300'>
                 {"A full stack developer based in algeria, with +3 years of experience in the industry i bring your idea into reality"}
