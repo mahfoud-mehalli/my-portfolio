@@ -19,6 +19,15 @@ const Projects = () => {
             background: 'bg-indigo-500',
         },
         {
+            title: 'The UK Barber',
+            tech: [SiReact, SiTailwindcss],
+            description: '',
+            cover: '/the-uk-barber.png',
+            demoLink: 'https://the-uk-barber.netlify.app',
+            codeLink: 'https://github.com/mahfoud-mehalli/barber-website-01',
+            background: 'bg-indigo-500',
+        },
+        {
             title: 'GDG Devfest Website',
             tech: [SiHtml5, SiCss3, SiJavascript],
             description: '',
