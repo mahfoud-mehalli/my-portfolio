@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 	title: "mahfoudbem",
 	authors: {
-		name: "chensokheng",
+		name: "mahfoudbem",
 	},
 
 	description:
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 		images: "/og.png",
 		type: "website",
 	},
-	keywords: ["daily web coding", "chensokheng", "dailywebcoding"],
+	keywords: ["daily web coding", "mahfoud", "mahfoudbem", "dailywebcoding"],
 };
 
 export default function RootLayout({
