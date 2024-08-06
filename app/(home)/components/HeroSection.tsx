@@ -13,7 +13,7 @@ const HeroSection = () => {
             <p className='capitalize md:w-96 text-lg text-gray-300'>
                 {"A full stack developer based in algeria, with +3 years of experience in the industry i bring your idea into reality"}
             </p>
-            <Link href={"mailto:mahfoudmehalli12345@gmail.com"} className='inline-block group'>
+            <Link href={"mailto:contact@mahfoudbem.tech"} className='inline-block group'>
                 <Title text='Contact Me 📧'/>
             </Link>
         </div>

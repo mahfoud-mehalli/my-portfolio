@@ -5,10 +5,20 @@ import { cn } from '@/lib/utils'
 import { DirectionAwareHover } from '@/components/ui/direction-aware-hover'
 import { SiCss3, SiHtml5, SiJavascript, SiReact, SiTailwindcss } from 'react-icons/si'
 import { MovingBorder, MovingBorderBtn } from '@/components/ui/moving-border'
+import { TbBrandNextjs } from 'react-icons/tb'
 
 const Projects = () => {
 
     const projects = [
+        {
+            title: 'Promptist',
+            tech: [TbBrandNextjs, SiTailwindcss],
+            description: '',
+            cover: '/promptist.png',
+            demoLink: 'https://promptist-mahfoudbem.vercel.app',
+            codeLink: 'https://github.com/mahfoud-mehalli/promptist',
+            background: 'bg-green-500',
+        },
         {
             title: 'modern business website',
             tech: [SiReact, SiTailwindcss],
